@@ -1,0 +1,41 @@
+# output
+out
+dist
+*.tgz
+
+# openapi.json generado por `bun run openapi`
+/openapi.json
+
+# datos locales de SQLite (base de datos, WAL y journals)
+/data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
